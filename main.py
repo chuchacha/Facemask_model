@@ -42,7 +42,7 @@ Perfect for multiclass classification.
 
 new_file = st.file_uploader('Upload Your Masked or Non-Masked Image')
 
-best_model = keras.models.load_model('best_model_wholeB0.h5')
+best_model = keras.models.load_model('best_model_whole.h5')
 
 
 img_list = ['cloth', 'n95', 'n95v', 'nfm', 'srg']
